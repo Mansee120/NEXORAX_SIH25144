@@ -1,11 +1,11 @@
-Foldable IoT Crutch (SIH 2025 Project)
+Foldable IoT Crutch 
 
 
 Smart Foldable Aluminium Axillary Crutch with IoT Integration for Enhanced Mobility and Rehabilitation 
 
   
 
-     🧩  What the Project Does 
+What the Project Does 
 
 - Our project introduces a  lightweight, foldable, IoT-enabled smart crutch  designed to improve mobility, safety, posture, and rehabilitation outcomes for users.
 - It integrates multiple sensors, fall detection + ML-based fall prediction, health tracking, emergency alerts, and a mobile application for real-time monitoring.
@@ -13,7 +13,7 @@ Smart Foldable Aluminium Axillary Crutch with IoT Integration for Enhanced Mobil
 
 
 
-     🎯  Problem Statement 
+Problem Statement 
 
 Traditional crutches cause:
 
@@ -28,7 +28,7 @@ Traditional crutches cause:
  Problem Statement ID – 25144 (SIH 2025) 
  Theme – MedTech / HealthTech  
 
-     💡  Solution Overview 
+    Solution Overview 
 
 We designed a  Smart Foldable Aluminium Crutch  that solves these issues through:
 
@@ -64,7 +64,7 @@ We designed a  Smart Foldable Aluminium Crutch  that solves these issues through
 
   
 
-     ⭐  Key Features 
+    Key Features 
 
   🔹  1. Fall Detection & ML-Based Fall Prediction 
 
@@ -149,7 +149,7 @@ We designed a  Smart Foldable Aluminium Crutch  that solves these issues through
 
   
 
-     ⚙  System Architecture 
+     System Architecture 
 
 The diagram on  Page 3  shows the complete workflow:
 
@@ -159,7 +159,7 @@ The diagram on  Page 3  shows the complete workflow:
 
   
 
-     🚀  Steps to Install & Run the System 
+     Steps to Install & Run the System 
 
          🔧 1. Firmware Setup (ESP32 / Arduino) 
 
@@ -176,7 +176,7 @@ The diagram on  Page 3  shows the complete workflow:
 
   
 
-         📱 2. Mobile App Setup (Android) 
+2. Mobile App Setup (Android) 
 
 1. Import project into Android Studio
 2. Add dependencies:
@@ -189,7 +189,7 @@ The diagram on  Page 3  shows the complete workflow:
 
   
 
-         ☁ 3. Cloud Configuration 
+ 3. Cloud Configuration 
 
  If using Firebase: 
 
@@ -205,7 +205,7 @@ The diagram on  Page 3  shows the complete workflow:
 
   
 
-         🔌 4. Run the System 
+          4. Run the System 
 
 1. Power the crutch
 2. Open the Android app
