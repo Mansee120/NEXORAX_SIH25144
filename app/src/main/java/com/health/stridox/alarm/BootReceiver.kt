@@ -1,0 +1,32 @@
+package com.health.stridox.alarm
+
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import com.health.stridox.data.repo.ReminderRepository
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import org.koin.core.component.KoinComponent
+import org.koin.core.component.inject
+
+class BootReceiver : BroadcastReceiver(), KoinComponent {
+
+    private val repo: ReminderRepository by inject()
+    private val alarmController: ReminderAlarmController by inject()
+
+    override fun onReceive(context: Context, intent: Intent) {
+        if (intent.action == Intent.ACTION_BOOT_COMPLETED) {
+
+            val pendingResult = goAsync()
+
+            CoroutineScope(Dispatchers.IO).launch {
+                val reminders = repo.getAllReminders()
+                reminders.filter { it.isActive }.forEach { r ->
+                    alarmController.schedule(r.id, r.title, r.note, r.date, r.time)
+                }
+                pendingResult.finish()
+            }
+        }
+    }
+}

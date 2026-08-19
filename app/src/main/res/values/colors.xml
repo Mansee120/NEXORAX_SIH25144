@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#007AFF</color>
+    <color name="secondary">#4CAF50</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="background_dark">#000000</color>
+    <color name="card_background_dark">#1C1C1E</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#98989D</color>
+    <color name="divider_dark">#38383A</color>
+
+    <!-- Light Theme Colors -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="card_background_light">#FFFFFF</color>
+    <color name="text_primary_light">#000000</color>
+    <color name="text_secondary_light">#8A8A8E</color>
+    <color name="icon_tint_steps">#1ABC9C</color>
+    <color name="icon_tint_sleep">#9B59B6</color>
+    <color name="icon_tint_weight">#1ABC9C</color>
+    <color name="progress_steps">#1ABC9C</color>
+    <color name="progress_sleep">#9B59B6</color>
+    <color name="progress_weight">#1ABC9C</color>
+
+    <!-- Progress Bar Colors -->
+    <color name="progress_calories">#FF453A</color>
+    <color name="progress_moving">#0A84FF</color>
+    <color name="progress_background">#38383A</color>
+
+    <!-- Added -->
+    <color name="tab_icon_color">#98989D</color>
+    <color name="connected_green">#00E676</color>
+    <color name="disconnected_grey">#999999</color>
+</resources>

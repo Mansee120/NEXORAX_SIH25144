@@ -1,0 +1,277 @@
+<resources>
+    <string name="app_name">StrideX</string>
+    <string name="health">Health</string>
+    <string name="doctors">Doctors</string>
+    <string name="reminders">Reminders</string>
+    <string name="devices">Devices</string>
+    <string name="profile">Profile</string>
+    <string name="more">More</string>
+    <string name="ic_health">ic_health</string>
+    <string name="ic_doctors">ic_doctors</string>
+    <string name="ic_reminders">ic_reminders</string>
+    <string name="ic_devices">ic_devices</string>
+    <string name="ic_profile">ic_profile</string>
+    <string name="ic_walk">ic_walk</string>
+    <string name="ic_fire">ic_fire</string>
+    <string name="walking_exercise_title">Walking Exercise</string>
+    <string name="back_content_description">Back</string>
+    <string name="duration_metric_title">Duration</string>
+    <string name="distance_metric_title">Distance</string>
+    <string name="distance_format">%1$.2f km</string>
+    <string name="steps_metric_title">Steps</string>
+    <string name="daily_goal_title">Daily Goal</string>
+    <string name="stop_content_description">Stop</string>
+    <string name="pause_content_description">Pause</string>
+    <string name="play_content_description">Play</string>
+    <string name="pause_button_text">Pause</string>
+    <string name="start_button_text">Start</string>
+
+    <!-- HealthScreen Strings -->
+    <string name="health_metrics_title">Health Metrics</string>
+    <string name="dashboard_content_description">Dashboard</string>
+    <string name="moving_since_title">Moving Since</string>
+    <string name="last_moving_time_title">Last Moving Time</string>
+    <string name="heart_rate_title">Heart Rate</string>
+    <string name="heart_rate_format">%1$d BPM</string>
+    <string name="spo2_title">SpO₂</string>
+    <string name="calories_burn_title">Calories Burn</string>
+    <string name="weight_title">Weight</string>
+    <string name="weight_format">%.1f kg</string>
+
+    <!-- HeartRateScreen Strings -->
+    <string name="week_time_period">Week</string>
+    <string name="month_time_period">Month</string>
+    <string name="current_metric_label">Current</string>
+    <string name="bpm_unit">BPM</string>
+    <string name="heart_rate_status_normal">Normal</string>
+    <string name="trends_title_format">%1$s\'s Trends</string>
+    <string name="low_value_format">%1$s Low</string>
+    <string name="high_value_format">%1$s High</string>
+
+    <!-- SpO2Screen Strings -->
+    <string name="year_time_period">Year</string>
+    <string name="percent_unit">%</string>
+    <string name="chart_title_format">%1$s Chart</string>
+    <string name="lowest_metric_label">Lowest</string>
+    <string name="highest_metric_label">Highest</string>
+
+    <!-- StepsScreen Strings -->
+    <string name="steps_title">Steps</string>
+    <string name="goal_format">Goal: %1$s steps</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="steps_history_title_format">%1$s\'s Steps</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="daily_goal_streak_title">Daily Goal Streak</string>
+    <string name="daily_goal_streak_subtitle">You\'ve hit your goal 5 days in a row!</string>
+    <string name="perfect_week_title">Perfect Week</string>
+    <string name="perfect_week_subtitle">Achieved daily goal every day last week.</string>
+    <string name="steps_unit">steps</string>
+
+    <!-- WeightDetailsScreen Strings -->
+    <string name="weight_details_title">Weight Details</string>
+    <string name="current_weight_label">Current Weight</string>
+    <string name="kg_unit">kg</string>
+    <string name="year">Year</string>
+    <string name="lowest_label">Lowest</string>
+    <string name="highest_label">Highest</string>
+
+    <!-- CaloriesScreen Strings -->
+    <string name="calories_title">Calories</string>
+    <string name="intake_label">Intake</string>
+    <string name="burn_label">Burn</string>
+    <string name="calorie_intake_title">Calorie Intake</string>
+    <string name="calorie_burn_title">Calorie Burn</string>
+    <string name="kcal_unit">kcal</string>
+    <string name="net_calories_goal_label">Net Calories Goal</string>
+    <string name="goal_calories_format">Goal: %1$s kcal</string>
+    <string name="day_mon">Mon</string>
+    <string name="day_tue">Tue</string>
+    <string name="day_wed">Wed</string>
+    <string name="day_thu">Thu</string>
+    <string name="day_fri">Fri</string>
+    <string name="day_sat">Sat</string>
+    <string name="day_sun">Sun</string>
+    <string name="month_jan">Jan</string>
+    <string name="month_feb">Feb</string>
+    <string name="month_mar">Mar</string>
+    <string name="month_apr">Apr</string>
+    <string name="month_may">May</string>
+    <string name="month_jun">Jun</string>
+    <string name="month_jul">Jul</string>
+    <string name="month_aug">Aug</string>
+    <string name="month_sep">Sep</string>
+    <string name="month_oct">Oct</string>
+    <string name="month_nov">Nov</string>
+    <string name="month_dec">Dec</string>
+
+    <!-- DoctorsScreen Strings -->
+    <string name="doctors_title">Connect with healthcare professionals</string>
+    <string name="connect_button">Connect</string>
+    <string name="unavailable_button">Unavailable</string>
+    <string name="doctor_sms_body">Hello, I\'d like to book an appointment with you.</string>
+    <string name="call_desc">Call</string>
+    <string name="message_desc">Message</string>
+
+    <!-- RemindersScreen Strings -->
+    <string name="reminders_title">Daily Reminders</string>
+    <string name="no_reminders_text">No reminders set up Click + Button to add new remainder</string>
+    <string name="pick_time_title">Pick time</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="add_reminder_title">Add Reminder</string>
+    <string name="edit_reminder_title">Edit Reminder</string>
+    <string name="medication_label">Medication</string>
+    <string name="date_label">Date (YYYY-MM-DD)</string>
+    <string name="pick_button">Pick</string>
+    <string name="time_label">Time (HH:mm)</string>
+    <string name="active_label">Active</string>
+    <string name="save_button">Save</string>
+    <string name="edit_desc">Edit</string>
+    <string name="delete_desc">Deleted</string>
+    <string name="add_content_description">Add</string>
+
+    <!-- DeviceScreen Strings -->
+    <string name="quick_actions_title">Quick Actions</string>
+    <string name="emergency_alert_action">EMERGENCY ALERT</string>
+    <string name="fall_detection_action">FALL DETECTION</string>
+    <string name="medical_assistance_action">MEDICAL ASSISTANCE</string>
+    <string name="devices_section_title">Devices</string>
+    <string name="scan_button">Scan</string>
+    <string name="stop_button">Stop</string>
+    <string name="no_devices_found">No devices found</string>
+    <string name="connected_status">Connected</string>
+    <string name="disconnect_button">Disconnect</string>
+    <string name="connect_button_device">Connect</string>
+    <string name="developer_mode_title">🔧 Developer Mode</string>
+    <string name="developer_mode_desc">Access raw sensor data and advanced features for development and testing purposes.</string>
+    <string name="enter_developer_mode_button">Enter Developer Mode</string>
+    <string name="developer_mode_warning">⚠️ For development use only</string>
+    <string name="developer_mode_active_title">🔧 Developer Mode Active</string>
+    <string name="exit_button">Exit</string>
+    <string name="mpu6050_sensor_title">MPU6050 Sensor</string>
+    <string name="accelerometer_format">Accelerometer: X: %.2f | Y: %.2f | Z: %.2f</string>
+    <string name="gyroscope_format">Gyroscope: X: %.2f | Y: %.2f | Z: %.2f</string>
+    <string name="max30100_sensor_title">MAX30100</string>
+    <string name="heart_rate_format_bpm">Heart Rate: %1$d BPM</string>
+    <string name="spo2_format_percent">SpO2: %1$d%%</string>
+    <string name="hx711_sensor_title">HX711 Sensor</string>
+    <string name="weight_format_kg">Weight: %.1f kg</string>
+    <string name="force_format_n">Force: %.1f N</string>
+    <string name="lm393_sensor_title">LM393 Proximity Sensor</string>
+    <string name="proximity_detected">Proximity: Object Detected</string>
+    <string name="proximity_none">Proximity: No Object</string>
+    <string name="distance_format_cm">Distance: %.1f cm</string>
+    <string name="sensor_state_active">Sensor State: Active</string>
+    <string name="sensor_state_inactive">Sensor State: Inactive</string>
+    <string name="modify_sensor_data_title">Modify Sensor Data</string>
+    <string name="custom_sensor_data_hint">Enter custom sensor data (e.g., JSON)</string>
+    <string name="send_data_button">Send Data to Device</string>
+    <string name="exit_developer_mode_button">Exit Developer Mode</string>
+
+    <!-- MoreScreen Strings -->
+    <string name="profile_title">Profile</string>
+    <string name="edit_button">Edit</string>
+    <string name="name_label">Name</string>
+    <string name="email_label">Email</string>
+    <string name="address_label">Address</string>
+    <string name="emergency_phone_label">Emergency Phone</string>
+    <string name="logout_button">Logout</string>
+    <string name="profile_pic_content_description">Profile pic</string>
+
+    <!-- DashboardScreen Strings -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="Games_title">Games</string>
+    <string name="welcome_message_format">Welcome back, %1$s!</string>
+    <string name="reward_points_title">Reward Points</string>
+    <string name="current_streak_title">Current Streak</string>
+    <string name="todays_goal_title">Today\'s Goal</string>
+    <string name="todays_challenges_title">Today\'s Challenges</string>
+    <string name="challenge_breathing">Breathing Exercises</string>
+    <string name="challenge_walking">Walking Exercises</string>
+    <string name="posture_analysis_with_Photo">Posture Analysis with Photo</string>
+    <string name="posture_analysis">Posture Analysis</string>
+    <string name="challenge_indoor">Indoor Training</string>
+    <string name="challenge_outdoor">Outdoor Training</string>
+    <string name="your_badges_title">Your Badges</string>
+    <string name="badge_first_step">First Step</string>
+    <string name="badge_1k_walker">1k Walker</string>
+    <string name="badge_30_mins">30 Mins</string>
+    <string name="badge_7_day_streak">7-Day Streak</string>
+    <string name="percentage_format">%d%%</string>
+
+    <!-- BreathingExerciseScreen Strings -->
+    <string name="breathing_exercises_title">Breathing Exercises</string>
+    <string name="instruction_inhale">Breathe in through your nose for %1$d seconds.</string>
+    <string name="instruction_hold">Hold your breath for %1$d seconds.</string>
+    <string name="instruction_exhale">Breathe out through your mouth for %1$d seconds.</string>
+    <string name="instruction_idle">Press Play to begin the exercise.</string>
+    <string name="exercise_box_breathing">Box Breathing</string>
+    <string name="exercise_478_relax">4-7-8 Relax</string>
+    <string name="exercise_deep_relaxation">Deep Relaxation</string>
+    <string name="action_inhale">Inhale</string>
+    <string name="action_hold">Hold</string>
+    <string name="action_exhale">Exhale</string>
+    <string name="action_ready">Ready</string>
+    <string name="cycles_format">%1$d of %2$d Cycles</string>
+    <string name="pause_desc">Pause</string>
+    <string name="play_desc">Play</string>
+    <string name="reset_desc">Reset</string>
+    <string name="session_settings_title">Session Settings</string>
+    <string name="duration_label">Duration</string>
+    <string name="min_unit">min</string>
+    <string name="haptics_label">Haptics</string>
+    <string name="points_content_description">Points</string>
+
+    <!-- PostureAnalysisScreen Strings -->
+    <string name="permission_required_title">Permission Required</string>
+    <string name="permission_denied_message">Photo access is permanently denied. Please enable it in Settings to perform posture analysis.</string>
+    <string name="go_to_settings_button">Go to Settings</string>
+    <string name="posture_analysis_title">Posture Analysis</string>
+    <string name="select_image_hint">Select Image that fit your whole body inside the frame.</string>
+    <string name="grant_permission_message">Please grant photo access to analyze your posture.</string>
+    <string name="analyzing_status">Analyzing...</string>
+    <string name="grant_permission_restart_button">Grant Permission &amp; Restart</string>
+    <string name="start_analysis_button">Start Analysis</string>
+    <string name="your_results_title">Your Results</string>
+    <string name="areas_to_improve_title">Areas to Improve</string>
+    <string name="analyzing_image_overlay">Analyzing Image...</string>
+    <string name="capture_posture_desc">Capture Posture</string>
+    <string name="tap_to_pick_hint">Tap \'Start Analysis\' to pick a photo</string>
+
+    <!-- IndoorTrainingScreen Strings -->
+    <string name="indoor_training_title">Indoor Training</string>
+    <string name="workout_treadmill">Treadmill Run</string>
+    <string name="workout_bike">Stationary Bike</string>
+    <string name="workout_strength">Guided Strength</string>
+    <string name="workout_yoga">Yoga Flow</string>
+    <string name="workout_rehab">Rehabilitation Stretches</string>
+    <string name="choose_workout_title">Choose Your Workout</string>
+    <string name="timer_title">Timer</string>
+    <string name="calories_title_metric">Calories</string>
+    <string name="refresh_content_description">refresh</string>
+    <string name="pause_content_description_indoor">Pause</string>
+    <string name="play_content_description_indoor">Play</string>
+    <string name="category_cardio">Cardio</string>
+    <string name="category_strength">Strength</string>
+    <string name="category_rehab">Rehab</string>
+    <string name="category_yoga">Yoga</string>
+    <string name="category_all">All</string>
+
+    <!-- LoginScreen Strings -->
+    <string name="login_title">Login</string>
+    <string name="username_label">Username or Email</string>
+    <string name="password_label">Password</string>
+    <string name="hide_password_desc">Hide</string>
+    <string name="show_password_desc">Show</string>
+    <string name="login_button">Login</string>
+    <string name="register_text">Don\'t have an account? Register</string>
+
+    <!-- RegisterScreen Strings -->
+    <string name="register_title">Register</string>
+    <string name="full_name_label">Full name</string>
+    <string name="emergency_number_label">Emergency Number</string>
+    <string name="register_button">Register</string>
+    <string name="back_to_login_text">Back to login</string>
+</resources>
